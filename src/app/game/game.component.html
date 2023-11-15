@@ -1,0 +1,4 @@
+<div>
+    <app-movie-display [movie]="currentMovie" [guessedLetters]="guessedLetters"></app-movie-display>
+    <app-user-input (guess)="makeGuess($event)"></app-user-input>
+  </div>

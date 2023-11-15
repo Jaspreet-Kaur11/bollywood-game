@@ -1,0 +1,5 @@
+<div>
+    <p *ngFor="let letter of movie.split('')">
+      {{ guessedLetters.has(letter) ? letter : '_' }}
+    </p>
+  </div>
